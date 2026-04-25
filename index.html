@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandu | Software Developer & BCA Graduate</title>
+    <meta name="description"
+        content="Portfolio of Chandu, a passionate BCA graduate and aspiring software developer. Discover my skills, projects, and experiences.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <nav>
+        <div class="logo">CHANDU.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="resume.pdf" class="btn-resume" target="_blank">Resume</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content hidden">
+                <h4>HELLO, I'M</h4>
+                <h1>CHANDU</h1>
+                <h3>SOFTWARE DEVELOPER <span class="accent">||</span> BCA GRADUATE</h3>
+                <p>Crafting digital experiences with a blend of design and engineering.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">Let's Talk</a>
+                    <a href="#about" class="btn-secondary">Explore More</a>
+                </div>
+            </div>
+            <div class="hero-image hidden">
+                <div class="image-wrapper">
+                    <img src="WhatsApp%20Image%202026-04-18%20at%202.22.04%20PM.jpeg" alt="Chandu Profile">
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="section-title hidden">
+                <h2>About <span class="accent">Me</span></h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-container">
+                <div class="about-text hidden">
+                    <p>I am a passionate <strong>BCA Graduate</strong> and aspiring software developer with a strong
+                        foundation in modern web technologies. I thrive on turning complex problems into beautiful,
+                        intuitive interfaces.</p>
+                    <p>As a tech enthusiast and content creator, I love to share my journey, learn continuously, and
+                        build scalable, high-performance applications that leave a lasting impact.</p>
+                    <div class="stats">
+                        <div class="stat-box">
+                            <h3>BCA</h3>
+                            <span>Degree</span>
+                        </div>
+                        <div class="stat-box">
+                            <h3>1</h3>
+                            <span>Projects</span>
+                        </div>
+                        <div class="stat-box">
+                            <h3>100%</h3>
+                            <span>Commitment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="section-title hidden">
+                <h2>My <span class="accent">Skills</span></h2>
+                <div class="line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card hidden">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Frontend Development</h3>
+                    <p>HTML5, CSS3, Vanilla JS, React, Responsive Design</p>
+                </div>
+                <div class="skill-card hidden">
+                    <div class="skill-icon">💻</div>
+                    <h3>Backend & Databases</h3>
+                    <p>Node.js, Express, Python, SQL, MongoDB</p>
+                </div>
+                <div class="skill-card hidden">
+                    <div class="skill-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Wireframing, Prototyping, Glassmorphism</p>
+                </div>
+                <div class="skill-card hidden">
+                    <div class="skill-icon">🚀</div>
+                    <h3>Tools & Version Control</h3>
+                    <p>Git, GitHub, VS Code, Vercel, Netlify</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="section-title hidden">
+                <h2>Get In <span class="accent">Touch</span></h2>
+                <div class="line"></div>
+            </div>
+            <div class="contact-container hidden">
+                <div class="contact-info">
+                    <h3>Let's build something amazing together!</h3>
+                    <p>I am currently open to new opportunities. Whether you have a question or just want to say hi, my
+                        inbox is always open.</p>
+                    <a href="mailto:example@email.com" class="btn-primary">Email Me</a>
+                    <a href="resume.pdf" target="_blank" class="btn-secondary mt-2">Download Resume</a>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Chandu. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
